@@ -1,9 +1,5 @@
 package com.fiap.mecatronica.monitoramento.model;
 
-public class Climatizacao {
-}
-package com.fiap.mecatronica.monitoramento.model;
-
 import jakarta.persistence.*;
 
 @Entity
