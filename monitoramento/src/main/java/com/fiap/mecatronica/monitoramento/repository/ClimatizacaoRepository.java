@@ -1,4 +1,7 @@
 package com.fiap.mecatronica.monitoramento.repository;
 
-public class ClimatizacaoRepository {
+import com.fiap.mecatronica.monitoramento.model.Climatizacao;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClimatizacaoRepository extends JpaRepository<Climatizacao, Long> {
 }

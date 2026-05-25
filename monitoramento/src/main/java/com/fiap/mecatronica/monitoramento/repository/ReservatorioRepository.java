@@ -1,4 +1,7 @@
 package com.fiap.mecatronica.monitoramento.repository;
 
-public class ReservatorioRepository {
+import com.fiap.mecatronica.monitoramento.model.Reservatorio;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ReservatorioRepository extends JpaRepository<Reservatorio, Long> {
 }
