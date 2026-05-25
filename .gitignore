@@ -1,0 +1,5 @@
+
+# Banco de dados H2 local
+/database/
+*.mv.db
+*.trace.db
