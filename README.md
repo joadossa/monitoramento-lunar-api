@@ -28,3 +28,14 @@ RM: 550306
 A aplicação foi organizada em camadas:
 
 Controller -> Service -> Repository -> Model
+
+## Commits de Desenvolvimento
+
+251c802 - (HEAD -> main, origin/main) Configuração com script para popular DB
+38aaa42 - Corrige classe Climatizacao e atualiza documentacao
+0729466 - Implementa CRUD de alertas operacionais
+b4d0f87 - Implementa CRUD de climatizacao
+b58f2c3 - Implementa CRUD de consumo de energia
+b77c30e - Implementa CRUD de reservatorios
+5a298c3 - Implementa CRUD de sensores
+b31f1e1 - Estrutura inicial do projeto Spring Boot com JPA, H2 e Lombok
